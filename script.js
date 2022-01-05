@@ -19,6 +19,11 @@ var specialCharacters = "!@#$%^&*()";
 // Prompts when "Generate Password" is clicked
 function generatePassword() {
   var passwordLength = prompt("Please choose a character length for your password.  It must be greater than 8 but less than 128.");
+  console.log (passwordLength);
+  if (passwordLength < 8 || passwordLength >128) {
+  alert ("Invalid number - Please choose a number between 8 and 128.");
+  return;
+}
 
   var lowerCases = confirm("Do you want to include lowercase letters?");
 
