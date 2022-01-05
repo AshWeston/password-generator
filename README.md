@@ -1,6 +1,6 @@
 Hello! 
 
-Follow the link https://ashweston.github.io/password-generator/ to generate your randomized password: 
+Follow the link to generate your randomized password: 
 
 Click on the button - "Generate Password" and follow the prompts. 
 
